@@ -1,5 +1,5 @@
 <?php
-$svar=@_Post["svar"]; 
+$svar=$_Post ["svar"]; 
 if (!$svar)
     {
         print ("Du har ikke svart på spørsmålet. <br />");  
